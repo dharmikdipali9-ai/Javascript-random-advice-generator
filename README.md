@@ -29,7 +29,7 @@ A simple and interactive **JavaScript API project** that fetches random advice f
 
 ## 🌐 API Used
 
-Advice Slip API
+https://api.adviceslip.com/
 
 ## 📱 Responsive Design
 
