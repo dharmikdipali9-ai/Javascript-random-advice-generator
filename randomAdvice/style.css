@@ -1,0 +1,122 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Gradient Background */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3e8ff;
+  transition: background 0.5s ease;
+}
+
+/* Glass Card */
+.container {
+  max-width: 400px;
+  width: 90%;
+  padding: 30px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+/* Heading */
+.container h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Advice ID */
+#adviceId {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+/* Advice Text */
+#advice {
+  font-size: 18px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+/* Button */
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  background: white;
+  color: #764ba2;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Button Hover */
+button:hover {
+  background: #ffdd59;
+  color: black;
+  transform: scale(1.05);
+}
+
+/* Button Active */
+button:active {
+  transform: scale(0.95);
+}
+
+/* Disabled Button */
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+@media (max-width: 992px) {
+    .container {
+        width: 80%;
+        padding: 25px;
+    }
+
+    #advice {
+        font-size: 17px;
+    }
+
+    button {
+        padding: 10px 22px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 322px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .container h2 {
+        font-size: 18px;
+    }
+
+    #advice {
+        font-size: 15px;
+    }
+
+    #adviceId {
+        font-size: 12px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
