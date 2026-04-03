@@ -26,10 +26,16 @@ A simple and interactive **JavaScript API project** that fetches random advice f
 - **Fetch API**
 
 ---
+## 🌐 Live Demo
+👉 https://random-advice-generator-madebydipali.netlify.app/
+
+---
 
 ## 🌐 API Used
 
 https://api.adviceslip.com/
+
+---
 
 ## 📱 Responsive Design
 
